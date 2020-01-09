@@ -1,4 +1,4 @@
-function getFormattedValue(value) {
+function getFormattedValue(value: number | null) {
   return `${value.toFixed(1)} pt`
 }
 console.log(getFormattedValue(0.1))
