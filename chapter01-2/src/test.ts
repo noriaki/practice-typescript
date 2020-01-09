@@ -1,6 +1,6 @@
-export function test(arg: any) {
-  return arg
+export function test1() {
+  return 'test1'
 }
-
-let nullAble = null // let nullAble: null
-nullAble = 'string'
+export function test2() {
+  return { value: 'test2' }
+}
