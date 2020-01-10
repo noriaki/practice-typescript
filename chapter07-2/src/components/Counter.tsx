@@ -3,8 +3,8 @@ import React, { useState, useCallback } from 'react'
 const Counter: React.FC = () => {
   const [count, setCount] = useState(0)
   const handleClick: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void = useCallback(() => {
-    setCount(count => count + 1)
-  }, [count])
+    setCount(prev => prev + 1)
+  }, [])
 
   return (
     <div>
