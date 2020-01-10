@@ -1,7 +1,9 @@
 import * as React from 'react'
 import { render } from 'react-dom'
 
+import IndexComponent from './'
+
 render(
-  <h1>Hello world!</h1>,
+  <IndexComponent />,
   document.getElementById('app')
 )
