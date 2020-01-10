@@ -1,6 +1,7 @@
 import React from 'react'
+import { NextPage } from 'next'
 
-const IndexPage = props => (
+const IndexPage: NextPage = props => (
   <div>Hello Next.js</div>
 )
 
